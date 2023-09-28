@@ -1,0 +1,34 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>모의해킹 실습</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="wrap flex">
+        <div class="loginwrap flex">
+            <h1>KDT 모의해킹 실습 로그인</h1>
+            <form class="flex" method="post" action="login.php">
+                <div class="formwrap flex">
+                    <input type="text" placeholder="ID" name="id">
+                    <input type="password" placeholder="PW" name="pw">
+                    <input type="submit" value="로그인">
+                </div>
+            <div class="subwrap flex">
+                <label for="session" class="flex">
+                    <input type="checkbox" id="session" name="session">
+                    <span>로그인 상태 유지</span>
+                </label>
+                <div class="flex subwrap2">
+                    <a href="#">비밀번호 재설정</a>
+                    <a href="signup.html">회원가입</a>
+                </div>
+            </div>
+        </form>
+        </div>
+    </div>
+</body>
+
+</html>

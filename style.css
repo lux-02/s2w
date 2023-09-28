@@ -1,0 +1,89 @@
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+html,
+body,
+.wrap {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.wrap {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+}
+
+.loginwrap {
+    width: 90%;
+    height: 60%;
+}
+
+form {
+    width: 100%;;
+}
+
+.formwrap {
+    width:100%;
+}
+
+
+.formwrap input {
+    width: 30%;
+    min-height: 2vw;
+    border: 1px solid lightgray;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.subwrap {
+    width: 30%;
+    font-size: 12px;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.subwrap div a {
+    color: inherit;
+    text-decoration: none;
+    list-style: none;
+}
+
+.subwrap label {
+    justify-content: flex-start;
+    width: 30%;
+    flex-direction: row;
+}
+
+.subwrap2 {
+    justify-content: flex-end;
+    width: 70%;
+    flex-direction: row;
+}
+
+.subwrap2 a:nth-child(1) {
+    margin-right: 2vw;
+}
+
+
+
+.echowrap {
+    width: 100%;
+    height: 100%;
+}
+
+.echowrap a {
+    text-decoration: none;
+    color: gray;
+}
